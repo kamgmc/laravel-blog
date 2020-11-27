@@ -78,11 +78,11 @@
                       <td class="px-6 py-4 whitespace-nowrap text-center">
                         <span
                           v-if="post.status"
-                          class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full"
+                          class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full capitalize"
                           :class="{
-                                'bg-green-100 text-green-800': post.status.name === 'Published',
-                                'bg-blue-100 text-blue-800': post.status.name === 'Draft',
-                                'bg-red-100 text-red-800': post.status.name === 'Inactive'}">
+                                'bg-green-100 text-green-800': post.status.name === 'published',
+                                'bg-blue-100 text-blue-800': post.status.name === 'draft',
+                                'bg-red-100 text-red-800': post.status.name === 'inactive'}">
                           {{ post.status.name }}
                         </span>
                       </td>
