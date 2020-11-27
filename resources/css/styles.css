@@ -1,0 +1,6 @@
+.alertify-notifier .ajs-message.ajs-success{
+    text-shadow: none;
+    background-color: rgb(91,189,114);
+    border-color: rgb(91,189,114);
+    font-family: inherit;
+}
